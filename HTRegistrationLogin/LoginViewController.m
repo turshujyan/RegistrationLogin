@@ -9,9 +9,6 @@
 #import "LoginViewController.h"
 #import "RegistrationViewController.h"
 #import "HomeViewController.h"
-#import "AppDelegate.h"
-
-
 
 @interface LoginViewController ()
 
@@ -30,14 +27,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self registerForKeyboardNotifications];
    if (self.usernameValue && self.passwordValue) {
         self.username.text = self.usernameValue;
         self.password.text = self.passwordValue;
     }
-}
-- (void)dealloc {
-    [self unRegisterFromKeyboardNotifications];
 }
 
 - (IBAction)login:(id)sender {

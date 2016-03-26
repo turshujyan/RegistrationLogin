@@ -6,9 +6,9 @@
 //  Copyright © 2016 Hermine. All rights reserved.
 //
 
-#import "UIViewController+Additions.h"
+#import "MainViewController.h"
 
-@interface LoginViewController: UIViewController
+@interface LoginViewController: MainViewController
 
 @property (strong, nonatomic) NSString *usernameValue;
 @property (strong, nonatomic) NSString *passwordValue;

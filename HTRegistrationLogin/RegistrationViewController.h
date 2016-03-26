@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainViewController.h"
 
-@interface RegistrationViewController : UITableViewController
+@interface RegistrationViewController : MainViewController <UITableViewDelegate, UITableViewDataSource>
+
 @end

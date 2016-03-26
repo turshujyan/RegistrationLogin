@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E09224D1CA2BFB50076CF71 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E09224B1CA2BFB50076CF71 /* UIViewController+Additions.m */; };
+		5E0922601CA44F540076CF71 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E09225F1CA44F540076CF71 /* MainViewController.m */; };
+		5E0922691CA6A0460076CF71 /* RegistrationFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0922681CA6A0460076CF71 /* RegistrationFormCell.m */; };
 		5E94DBCA1C9D59A20028C894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E94DBC91C9D59A20028C894 /* main.m */; };
 		5E94DBCD1C9D59A20028C894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E94DBCC1C9D59A20028C894 /* AppDelegate.m */; };
 		5E94DBD51C9D59A20028C894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E94DBD41C9D59A20028C894 /* Assets.xcassets */; };
@@ -24,8 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E09224B1CA2BFB50076CF71 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
-		5E09224C1CA2BFB50076CF71 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
+		5E09225E1CA44F540076CF71 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5E09225F1CA44F540076CF71 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5E0922671CA6A0460076CF71 /* RegistrationFormCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationFormCell.h; sourceTree = "<group>"; };
+		5E0922681CA6A0460076CF71 /* RegistrationFormCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationFormCell.m; sourceTree = "<group>"; };
 		5E94DBC51C9D59A20028C894 /* HTRegistrationLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTRegistrationLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E94DBC91C9D59A20028C894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E94DBCB1C9D59A20028C894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,10 +87,14 @@
 				5E94DC091C9E1C8E0028C894 /* unchecked.png */,
 				5E94DBCB1C9D59A20028C894 /* AppDelegate.h */,
 				5E94DBCC1C9D59A20028C894 /* AppDelegate.m */,
-				5E94DBFC1C9D86BC0028C894 /* RegistrationViewController.h */,
-				5E94DBFD1C9D86BC0028C894 /* RegistrationViewController.m */,
+				5E09225E1CA44F540076CF71 /* MainViewController.h */,
+				5E09225F1CA44F540076CF71 /* MainViewController.m */,
 				5E94DBF61C9D801A0028C894 /* LoginViewController.h */,
 				5E94DBF71C9D801A0028C894 /* LoginViewController.m */,
+				5E94DBFC1C9D86BC0028C894 /* RegistrationViewController.h */,
+				5E94DBFD1C9D86BC0028C894 /* RegistrationViewController.m */,
+				5E0922671CA6A0460076CF71 /* RegistrationFormCell.h */,
+				5E0922681CA6A0460076CF71 /* RegistrationFormCell.m */,
 				5E94DC051C9DE6510028C894 /* HomeViewController.h */,
 				5E94DC061C9DE6510028C894 /* HomeViewController.m */,
 				5E94DBD41C9D59A20028C894 /* Assets.xcassets */,
@@ -99,8 +106,6 @@
 				5E94DBEE1C9D6F2F0028C894 /* HTButton.m */,
 				5E94DBF91C9D868A0028C894 /* UserDetails.h */,
 				5E94DBFA1C9D868A0028C894 /* UserDetails.m */,
-				5E09224B1CA2BFB50076CF71 /* UIViewController+Additions.m */,
-				5E09224C1CA2BFB50076CF71 /* UIViewController+Additions.h */,
 			);
 			path = HTRegistrationLogin;
 			sourceTree = "<group>";
@@ -188,8 +193,9 @@
 			files = (
 				5E94DBFE1C9D86BC0028C894 /* RegistrationViewController.m in Sources */,
 				5E94DBCD1C9D59A20028C894 /* AppDelegate.m in Sources */,
+				5E0922691CA6A0460076CF71 /* RegistrationFormCell.m in Sources */,
 				5E94DBF81C9D801A0028C894 /* LoginViewController.m in Sources */,
-				5E09224D1CA2BFB50076CF71 /* UIViewController+Additions.m in Sources */,
+				5E0922601CA44F540076CF71 /* MainViewController.m in Sources */,
 				5E94DC071C9DE6510028C894 /* HomeViewController.m in Sources */,
 				5E94DBFB1C9D868A0028C894 /* UserDetails.m in Sources */,
 				5E94DBCA1C9D59A20028C894 /* main.m in Sources */,
