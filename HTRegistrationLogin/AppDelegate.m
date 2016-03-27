@@ -10,8 +10,11 @@
 #import "HomeViewController.h"
 #import "LoginViewController.h"
 
-@interface AppDelegate ()
+/*
+ Temporary change
+ */
 
+@interface AppDelegate ()
 
 @end
 
